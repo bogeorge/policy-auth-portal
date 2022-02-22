@@ -1,0 +1,12 @@
+{
+  "perms": {
+    "authportal.read_groups": {
+      "description": "Allows a user to read all groups",
+      "authportal.GET.api.groups": {
+        "allowed": true,
+        "visible": true,
+        "enabled": true
+      }
+    }
+  }
+}

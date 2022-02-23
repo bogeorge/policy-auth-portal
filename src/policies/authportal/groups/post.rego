@@ -1,4 +1,4 @@
-package authportal.GET.api.groups.__slug
+package authportal.POST.api.groups
 
 import input.user.attributes.properties as user_props
 
@@ -9,7 +9,7 @@ default visible = false
 default enabled = false
 
 allowed {
-	user_props.department == "cordova vendor tool"
+	user_props.department == "Vendor Platform"
 }
 
 visible {

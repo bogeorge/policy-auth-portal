@@ -9,7 +9,7 @@ default visible = false
 default enabled = false
 
 allowed {
-	user_props.department == "cordova vendor tool"
+	true
 }
 
 visible {

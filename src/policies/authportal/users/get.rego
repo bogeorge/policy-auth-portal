@@ -1,20 +1,19 @@
 package authportal.GET.api.users
 
-import data.functions.has_permission_on_resource
-import input.user.attributes.properties.authorizations as user_auths
+import data.functions.has_permission
 
 default allowed = false
 default visible = false
 default enabled = false
 
 allowed {
-	true
+	has_permission("authportal.read_users")
 }
 
 visible {
-	true
+	has_permission("authportal.read_users")
 }
 
 enabled {
-	true
+	has_permission("authportal.read_users")
 }

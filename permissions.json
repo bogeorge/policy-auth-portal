@@ -1,0 +1,19 @@
+{
+
+	authportal.read_groups
+	authportal.update_groups
+	authportal.create_groups
+	authportal.delete_groups
+	authportal.read_group_authorizations
+	authportal.create_group_authorizations
+
+	authportal.read_users
+	authportal.read_user_authorizations
+	authportal.create_user_authorizations
+
+	authportal.read_permissions
+
+	authportal.read_permission_sets
+
+	authportal.read_resources
+}

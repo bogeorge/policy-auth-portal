@@ -1,21 +1,19 @@
 package authportal.GET.api.groups.__slug
 
-import input.user.attributes.properties as user_props
+import data.functions.has_permission
 
 default allowed = false
-
 default visible = false
-
 default enabled = false
 
 allowed {
-	true
+	has_permission("authportal.read_groups")
 }
 
 visible {
-	true
+	has_permission("authportal.read_groups")
 }
 
 enabled {
-	true
+	has_permission("authportal.read_groups")
 }

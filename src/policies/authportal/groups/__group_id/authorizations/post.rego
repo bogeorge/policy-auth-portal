@@ -7,14 +7,14 @@ default visible = false
 default enabled = false
 
 allowed {
-	has_permission("authportal.create_group_authorizations")
+	has_permission("authportal.assign_group_authorizations")
 }
 
 visible {
-	has_permission("authportal.create_group_authorizations")
+	has_permission("authportal.assign_group_authorizations")
 }
 
 enabled {
-	has_permission("authportal.create_group_authorizations")
+	has_permission("authportal.assign_group_authorizations")
 }
 

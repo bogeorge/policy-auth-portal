@@ -4,16 +4,21 @@
 	authportal.update_groups
 	authportal.create_groups
 	authportal.delete_groups
-	authportal.read_group_authorizations
-	authportal.create_group_authorizations
 
 	authportal.read_users
-	authportal.read_user_authorizations
-	authportal.create_user_authorizations
+	authportal.assign_user_groups
+
+
+	authportal.read_authorizations
+	authportal.assign_user_authorizations
+	authportal.assign_group_authorizations
 
 	authportal.read_permissions
 
 	authportal.read_permission_sets
+	authportal.create_permission_sets
+	authportal.update_permission_sets
+	authportal.delete_permission_sets
 
 	authportal.read_resources
 }
